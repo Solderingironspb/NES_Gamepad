@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NES_USB_GamePad", "NES_USB_GamePad\NES_USB_GamePad.vcxproj", "{7C3F4018-EC8A-4E48-B235-5B79489253DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C3F4018-EC8A-4E48-B235-5B79489253DC}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{7C3F4018-EC8A-4E48-B235-5B79489253DC}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{7C3F4018-EC8A-4E48-B235-5B79489253DC}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{7C3F4018-EC8A-4E48-B235-5B79489253DC}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFBBBFF8-B9D7-49F6-8883-D33C43BFB30A}
+	EndGlobalSection
+EndGlobal

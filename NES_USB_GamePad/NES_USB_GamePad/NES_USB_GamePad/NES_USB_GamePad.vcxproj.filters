@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{27fed939-5d77-4afa-9b2c-95dd69b82193}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{eed6bcbd-19a7-4f83-ab16-d159c91e06e8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{212ae649-8bce-4368-ab0a-5d94fa8e53ac}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\Core">
+      <UniqueIdentifier>{e8cf3b8d-f946-4288-93df-fcbab1fc687f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Core\Inc">
+      <UniqueIdentifier>{96aeaa73-550c-497d-ba24-ca23d76a71e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Core\Src">
+      <UniqueIdentifier>{c91058b9-0157-48c9-9110-f55596292327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Core\Startup">
+      <UniqueIdentifier>{06d1e70f-8b79-444b-8fe4-7db285922b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers">
+      <UniqueIdentifier>{37918932-6233-4c10-a3ca-9d819bdd5086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\CMSIS">
+      <UniqueIdentifier>{c7f3b69e-8cf2-4054-a357-05b0c1709a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\HAL">
+      <UniqueIdentifier>{6f1bf530-2717-4673-9d2e-971e948365a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\HAL\Inc">
+      <UniqueIdentifier>{70ec8a6f-6d5c-4c91-96ae-7e94bfe884c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\HAL\Src">
+      <UniqueIdentifier>{7c466fb2-7d24-4662-b207-3c6498a6c458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_DEVICE">
+      <UniqueIdentifier>{a282118a-b997-499d-8538-bba3acac7137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_DEVICE\Inc">
+      <UniqueIdentifier>{02aa8444-3de1-478d-8b64-085ae583dc9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_DEVICE\Src">
+      <UniqueIdentifier>{d4348a4a-c655-47e4-891d-9e7fe152005e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{7b683f0e-4766-4bd7-8fd3-384659027c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Core">
+      <UniqueIdentifier>{9280cc03-54e4-4e32-a8d1-512a4dd2c805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Core\Inc">
+      <UniqueIdentifier>{69ef1ac2-75af-43de-a7f0-be9b2955b670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Core\Src">
+      <UniqueIdentifier>{3fdd484b-3000-4012-84b8-e1764c65830d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Core\Startup">
+      <UniqueIdentifier>{b52a370c-96f2-497f-bb8f-4c4d7578e9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers">
+      <UniqueIdentifier>{8283178f-dd11-480f-aa00-230fa8f9bc1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\CMSIS">
+      <UniqueIdentifier>{eb202eff-d158-47a5-931c-a49a00dba910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\HAL">
+      <UniqueIdentifier>{486451a4-ca91-4216-a170-e57ba74ca49c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\HAL\Inc">
+      <UniqueIdentifier>{26f79461-5d1f-4fd9-aef5-58067ef2485d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\HAL\Src">
+      <UniqueIdentifier>{27f09545-c8ea-414c-b1cb-ed9462b862a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_DEVICE">
+      <UniqueIdentifier>{fcc1bad2-6a2b-4d9e-a9fd-1331b6c4d0e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_DEVICE\Inc">
+      <UniqueIdentifier>{3d0c4037-5139-4540-ba5b-1d3a1dfab1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_DEVICE\Src">
+      <UniqueIdentifier>{9009737c-1d56-4eb6-be34-d040af810cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{777b092e-23d7-4f04-b42c-9ddd37ed37fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{7fe8e154-41a9-4024-8c07-813b5805881c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Core\Inc\main.h">
+      <Filter>Source files\Core\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\Inc\stm32f103xx_CMSIS.h">
+      <Filter>Source files\Core\Inc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Core\Src\main.c">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Core\Src\stm32f103xx_CMSIS.c">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Core\Src\syscalls.c">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Core\Src\sysmem.c">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Core\Src\system_stm32f1xx.c">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Core\Startup\startup_stm32f103c8tx.S">
+      <Filter>Source files\Core\Startup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Drivers\CMSIS\cmsis_armcc.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\cmsis_armclang.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\cmsis_compiler.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\cmsis_gcc.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\cmsis_iccarm.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\cmsis_version.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\core_armv8mbl.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\core_armv8mml.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\core_cm0.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\core_cm0plus.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\core_cm1.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\core_cm23.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\core_cm3.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\core_cm33.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\core_cm4.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\core_cm7.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\core_sc000.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\core_sc300.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\mpu_armv7.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\mpu_armv8.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\stm32f103xb.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\stm32f1xx.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\system_stm32f1xx.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\CMSIS\tz_context.h">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal_conf.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal_cortex.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal_def.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal_dma.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal_dma_ex.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal_exti.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal_flash.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal_flash_ex.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal_gpio.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal_gpio_ex.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal_pcd.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal_pcd_ex.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal_pwr.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal_rcc.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal_rcc_ex.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal_tim.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_hal_tim_ex.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32f1xx_ll_usb.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Drivers\HAL\Inc\stm32_hal_legacy.h">
+      <Filter>Source files\Drivers\HAL\Inc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Drivers\HAL\Src\stm32f1xx_hal.c">
+      <Filter>Source files\Drivers\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\HAL\Src\stm32f1xx_hal_cortex.c">
+      <Filter>Source files\Drivers\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\HAL\Src\stm32f1xx_hal_dma.c">
+      <Filter>Source files\Drivers\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\HAL\Src\stm32f1xx_hal_exti.c">
+      <Filter>Source files\Drivers\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\HAL\Src\stm32f1xx_hal_flash.c">
+      <Filter>Source files\Drivers\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\HAL\Src\stm32f1xx_hal_flash_ex.c">
+      <Filter>Source files\Drivers\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\HAL\Src\stm32f1xx_hal_gpio.c">
+      <Filter>Source files\Drivers\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\HAL\Src\stm32f1xx_hal_gpio_ex.c">
+      <Filter>Source files\Drivers\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\HAL\Src\stm32f1xx_hal_pcd.c">
+      <Filter>Source files\Drivers\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\HAL\Src\stm32f1xx_hal_pcd_ex.c">
+      <Filter>Source files\Drivers\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\HAL\Src\stm32f1xx_hal_pwr.c">
+      <Filter>Source files\Drivers\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\HAL\Src\stm32f1xx_hal_rcc.c">
+      <Filter>Source files\Drivers\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\HAL\Src\stm32f1xx_hal_rcc_ex.c">
+      <Filter>Source files\Drivers\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\HAL\Src\stm32f1xx_hal_tim.c">
+      <Filter>Source files\Drivers\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\HAL\Src\stm32f1xx_hal_tim_ex.c">
+      <Filter>Source files\Drivers\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\HAL\Src\stm32f1xx_ll_usb.c">
+      <Filter>Source files\Drivers\HAL\Src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\USB_DEVICE\Inc\usbd_conf.h">
+      <Filter>Source files\USB_DEVICE\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\USB_DEVICE\Inc\usbd_core.h">
+      <Filter>Source files\USB_DEVICE\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\USB_DEVICE\Inc\usbd_ctlreq.h">
+      <Filter>Source files\USB_DEVICE\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\USB_DEVICE\Inc\usbd_customhid.h">
+      <Filter>Source files\USB_DEVICE\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\USB_DEVICE\Inc\usbd_custom_hid_if.h">
+      <Filter>Source files\USB_DEVICE\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\USB_DEVICE\Inc\usbd_def.h">
+      <Filter>Source files\USB_DEVICE\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\USB_DEVICE\Inc\usbd_desc.h">
+      <Filter>Source files\USB_DEVICE\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\USB_DEVICE\Inc\usbd_ioreq.h">
+      <Filter>Source files\USB_DEVICE\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\USB_DEVICE\Inc\usb_device.h">
+      <Filter>Source files\USB_DEVICE\Inc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\USB_DEVICE\Src\usbd_conf.c">
+      <Filter>Source files\USB_DEVICE\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\USB_DEVICE\Src\usbd_core.c">
+      <Filter>Source files\USB_DEVICE\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\USB_DEVICE\Src\usbd_ctlreq.c">
+      <Filter>Source files\USB_DEVICE\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\USB_DEVICE\Src\usbd_customhid.c">
+      <Filter>Source files\USB_DEVICE\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\USB_DEVICE\Src\usbd_custom_hid_if.c">
+      <Filter>Source files\USB_DEVICE\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\USB_DEVICE\Src\usbd_desc.c">
+      <Filter>Source files\USB_DEVICE\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\USB_DEVICE\Src\usbd_ioreq.c">
+      <Filter>Source files\USB_DEVICE\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\USB_DEVICE\Src\usb_device.c">
+      <Filter>Source files\USB_DEVICE\Src</Filter>
+    </ClCompile>
+    <None Include="stm32.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <None Include="NES_USB_GamePad-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="NES_USB_GamePad-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="stm32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>
