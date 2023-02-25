@@ -43,10 +43,10 @@ void TIM3_IRQHandler(void) {
 		
 		if (NES_State)
 		{
-			GPIOC->BSRR = GPIO_BSRR_BR13;
+			GPIOC->BSRR = GPIO_BSRR_BS13;
 		}
 		else {
-			GPIOC->BSRR = GPIO_BSRR_BS13;
+			GPIOC->BSRR = GPIO_BSRR_BR13;
 		}
 		
 		if (READ_BIT(NES_State, (1 << 3)) && !READ_BIT(NES_State, (1 << 2)))

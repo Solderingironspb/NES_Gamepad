@@ -959,7 +959,7 @@ void CMSIS_TIM3_init(void) {
 
 	//15.4.5 TIMx status register (TIMx_SR) - Статусные регистры
 
-	TIM3->PSC = 300 - 1;
+	TIM3->PSC = 1200 - 1;
 	TIM3->ARR = 1000 - 1;
 
 	NVIC_EnableIRQ(TIM3_IRQn); //Разрешить прерывания по таймеру 3
