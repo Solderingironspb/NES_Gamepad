@@ -6,7 +6,7 @@
 #define NSS_OFF GPIOA->BSRR = GPIO_BSRR_BS4;
 
 uint8_t NES_State = 0;
-//Áèòû: 
+//Ð‘Ð¸Ñ‚Ñ‹: 
 //7 - A
 //6 - B
 //5 - Select
@@ -81,7 +81,7 @@ void TIM3_IRQHandler(void) {
 		
 	Gamepad_data.buttons = NES_State >> 4;
 	USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, (uint8_t*)&Gamepad_data, sizeof(Gamepad_data));
-	CLEAR_BIT(TIM3->SR, TIM_SR_UIF); //Ñáðîñèì ôëàã ïðåðûâàíèÿ
+	CLEAR_BIT(TIM3->SR, TIM_SR_UIF); //Ð¡Ð±Ñ€Ð¾ÑÐ¸Ð¼ Ñ„Ð»Ð°Ð³ Ð¿Ñ€ÐµÑ€Ñ‹Ð²Ð°Ð½Ð¸Ñ
 
 }
 
@@ -96,9 +96,9 @@ int main(void) {
 	CMSIS_PC13_OUTPUT_Push_Pull_init();
     
 	//PA4 - NSS
-	SET_BIT(RCC->APB2ENR, RCC_APB2ENR_IOPAEN); //Çàïóñê òàêòèðîâàíèÿ ïîðòà A
-	MODIFY_REG(GPIOA->CRL, GPIO_CRL_MODE4, 0b10 << GPIO_CRL_MODE4_Pos); //Íàñòðîéêà GPIOA Pin 4 íà âûõîä ñî ìàêñèìàëüíîé ñêîðîñòüþ â 50 MHz
-	MODIFY_REG(GPIOA->CRL, GPIO_CRL_CNF4, 0b00 << GPIO_CRL_CNF4_Pos); //Íàñòðîéêà GPIOA Pin 4 íà âûõîä â ðåæèìå Push-Pull
+	SET_BIT(RCC->APB2ENR, RCC_APB2ENR_IOPAEN); //Ð—Ð°Ð¿ÑƒÑÐº Ñ‚Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ Ð¿Ð¾Ñ€Ñ‚Ð° A
+	MODIFY_REG(GPIOA->CRL, GPIO_CRL_MODE4, 0b10 << GPIO_CRL_MODE4_Pos); //ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ° GPIOA Pin 4 Ð½Ð° Ð²Ñ‹Ñ…Ð¾Ð´ ÑÐ¾ Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ð¹ ÑÐºÐ¾Ñ€Ð¾ÑÑ‚ÑŒÑŽ Ð² 50 MHz
+	MODIFY_REG(GPIOA->CRL, GPIO_CRL_CNF4, 0b00 << GPIO_CRL_CNF4_Pos); //ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ° GPIOA Pin 4 Ð½Ð° Ð²Ñ‹Ñ…Ð¾Ð´ Ð² Ñ€ÐµÐ¶Ð¸Ð¼Ðµ Push-Pull
 	NSS_OFF;
 	
 	MX_USB_DEVICE_Init();
