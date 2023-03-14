@@ -1,1 +1,1 @@
- -O binary C:/dev/2023/NES_USB_GamePad/NES_USB_GamePad/VisualGDB/Debug/NES_USB_GamePad ../VisualGDB/Debug/NES_USB_GamePad.bin
+ -O binary "C:/Users/Oleg Volkov/Documents/GitHub/NES_Gamepad/NES_USB_GamePad/NES_USB_GamePad/VisualGDB/Debug/NES_USB_GamePad" ../VisualGDB/Debug/NES_USB_GamePad.bin
